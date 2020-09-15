@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Students</title>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row" style="height: 100vh;">
+      <div class="card" style="display: block; margin: auto;">
+        <div class="card-body">
+          <h2 class="text-center text-primary">Golden Park College</h2>
+          <p class="text-center text-dark" style="font-size: 14px;">Bargachhi, Biratnagar</p>
+          <div class="card">
+            <p style="margin: 0; padding: 0;" class="text-center text-danger">Student Identity Card</p>
+          </div>
+          <div class="profile my-3">
+            <img id="stuPhoto" src="Images/subhash.jpg" alt=""
+              style="height: 100px; display: block; margin: auto; border-radius: 50px;">
+          </div>
+          <div class="id-detail">
+            <table>
+              <tr>
+                <th>Student ID</th>
+                <td>: <span id="sid">127</span></td>
+              </tr>
+              <tr>
+                <th>Name</th>
+                <td>: <span id="stuName">Subhash Yadav</span></td>
+              </tr>
+              <tr>
+                <th>Class</th>
+                <td>: <span id="stuClass">Computer III/II</span></td>
+              </tr>
+              <tr>
+                <th>Roll No</th>
+                <td>: <span id="rollNo">17</span></td>
+              </tr>
+              <tr>
+                <th>Address</th>
+                <td>: <span id="add">Dhanusha, Nepal</span></td>
+              </tr>
+            </table>
+          </div>
+          <div class="buttons my-3" style="display: flex; flex-direction: row; justify-content: space-between;">
+            <button id="prevBtn" class="btn btn-success btn-sm" style="padding: 0 25px;">Prev</button>
+            <button id="nextBtn" class="btn btn-success btn-sm" style="padding: 0 25px;">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
